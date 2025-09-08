@@ -1,4 +1,58 @@
 * {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+
+  border-radius: 50% 10%;
+  outline-color: pink;
+  outline-style: dotted;
+
+
+
+  text-align: center;
+
+  font-family: "Courier New", "Copperplate", "Lucida Console", "Brush Script MT", monospace;
+}
+
+
+
+body {
+
+  outline-color: red;
+
+
+
+  display: block;
+
+
+
+  margin: auto auto;
+
+}
+
+ul,
+ol {
+
+  outline-color: yellow;
+
+  /* display: block; */
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-left: 1.2em; */
+
+
+  /* list-style-position: outside;
+  padding-left: 1.2em; */
+
+
+
+  list-style-position: outside;
+  padding-left: 0;
+
+}
+
+/* ul,
+ol {
+  display: inline-block;
+  text-align: left;
 }
